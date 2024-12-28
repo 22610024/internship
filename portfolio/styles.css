@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #444;
+}
+
+/* Header Section */
+header {
+    background-color: #fa7101;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header-container .tagline {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* About Section */
+#about {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4b4;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.bio {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Skills Section */
+#skills {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin: 0.5rem;
+    background: #fa7100;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.projects-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Resume Section */
+#resume {
+    padding: 2rem;
+    text-align: center;
+}
+
+#resume a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #0077ff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact p {
+    margin: 0.5rem 0;
+}
+
+#contact a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
